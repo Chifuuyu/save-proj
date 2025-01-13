@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu27esroqjfbc39h524g",
+  "parentID": "mig_cu27e6joqjfbc39h523g",
+  "checksum": "1:43b1440ed0f272c0e1596fff41f091e8186a1b6ab3dc692f15415f2c59c16eba",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "ExpenseMonth",
+        "table": "Expenses"
+      }
+    }
+  ]
+}

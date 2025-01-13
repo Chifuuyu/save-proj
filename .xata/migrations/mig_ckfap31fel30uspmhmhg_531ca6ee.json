@@ -1,0 +1,11 @@
+{
+  "id": "mig_ckfap31fel30uspmhmhg",
+  "checksum": "1:531ca6ee34a01cdba5bd7be1a09e1c60f2ad62ed5736a08f6f4849166137a9ac",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Person"
+      }
+    }
+  ]
+}

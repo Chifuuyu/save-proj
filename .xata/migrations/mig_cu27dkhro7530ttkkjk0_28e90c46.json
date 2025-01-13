@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu27dkhro7530ttkkjk0",
+  "parentID": "mig_cu27dh8a9dahcg287gp0",
+  "checksum": "1:28e90c46bd577b8f7d224c95799c60ca98dd5ebaf09e7be2e8f579b98888e60c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "currentAmount",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "Savings"
+      }
+    }
+  ]
+}

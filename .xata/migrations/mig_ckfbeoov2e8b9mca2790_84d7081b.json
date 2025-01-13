@@ -1,0 +1,19 @@
+{
+  "id": "mig_ckfbeoov2e8b9mca2790",
+  "parentID": "mig_ckfau99fel30uspmhneg",
+  "checksum": "1:84d7081bfafd0faa4cd6a767fb1c1dd2b8368c68fc90aab7e69c88e4bdde80e7",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Person",
+          "type": "link",
+          "link": {
+            "table": "Person"
+          }
+        },
+        "table": "Loan"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mig_ckfbiqk80rf798f6gbbg",
+  "parentID": "mig_ckfbims80rf798f6gbag",
+  "checksum": "1:c482b39e952a5d877b1e2d2a3f2b77cfad35afc9f4d66dc70765ef28cf8db7ea",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Loan",
+          "type": "link",
+          "link": {
+            "table": "Loan"
+          }
+        },
+        "table": "PartitionedLoan"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu27dbboqjfbc39h522g",
+  "parentID": "mig_cu27cf3oqjfbc39h521g",
+  "checksum": "1:1de44d6b99470b19ff3033fa2f85c1652d8dc3b14b6dce52a3056f76c1f22e3f",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "Savings",
+        "oldName": "Saved"
+      }
+    }
+  ]
+}

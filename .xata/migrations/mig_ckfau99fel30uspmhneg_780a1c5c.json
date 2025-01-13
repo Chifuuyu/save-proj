@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfau99fel30uspmhneg",
+  "parentID": "mig_ckfau61fel30uspmhn6g",
+  "checksum": "1:780a1c5c638f02d3a6a0990c58ab36603418c42bebea2cc0dd3f08ce2023ae0f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Income",
+          "type": "int"
+        },
+        "table": "Income"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mig_ckfau61fel30uspmhn6g",
+  "parentID": "mig_ckfau3pfel30uspmhmvg",
+  "checksum": "1:e20fe27e1e7bec2248bcf2b104e8697d71cf99cc63f929ce8d18ade47ced1ebd",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "NameExpense",
+        "oldName": "Name",
+        "table": "Expenses"
+      }
+    }
+  ]
+}

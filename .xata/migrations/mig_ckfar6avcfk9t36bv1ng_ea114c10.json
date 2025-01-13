@@ -1,0 +1,12 @@
+{
+  "id": "mig_ckfar6avcfk9t36bv1ng",
+  "parentID": "mig_ckfar21fel30uspmhmlg",
+  "checksum": "1:ea114c10a43623c68c35c0fe667e4c3e766ac70bb1ef1127d611d1d8168cde81",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Expenses"
+      }
+    }
+  ]
+}

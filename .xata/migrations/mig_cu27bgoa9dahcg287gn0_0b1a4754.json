@@ -1,0 +1,16 @@
+{
+  "id": "mig_cu27bgoa9dahcg287gn0",
+  "parentID": "mig_cu27b6roqjfbc39h5200",
+  "checksum": "1:0b1a47546229c504e95170b8e9254a9fe91efe151eeffcea6bb8e078da03ac7d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "moneyRequired",
+          "type": "int"
+        },
+        "table": "Goal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu27dp1ro7530ttkkjl0",
+  "parentID": "mig_cu27dkhro7530ttkkjk0",
+  "checksum": "1:ea9454de289c0013409a02df3d7ded8f6668a6d779fbfd88584d8105c8a9a166",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "link",
+          "link": {
+            "table": "Person"
+          }
+        },
+        "table": "Savings"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mig_ckfbk1gv2e8b9mca280g",
+  "parentID": "mig_ckfbjsc80rf798f6gbf0",
+  "checksum": "1:100005de72af89b98a36e49371a71c1d80ddbcc82df6a3d335f4f397c61bbfae",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "isPaid",
+        "oldName": "Paid",
+        "table": "PartitionedLoan"
+      }
+    }
+  ]
+}

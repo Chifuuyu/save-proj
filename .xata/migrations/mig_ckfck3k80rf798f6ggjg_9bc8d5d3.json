@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfck3k80rf798f6ggjg",
+  "parentID": "mig_ckfbk1gv2e8b9mca280g",
+  "checksum": "1:9bc8d5d331a96c851f9c7ac4f849276271d5ad89b108ced50279362335c683ec",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "LoanName",
+          "type": "string"
+        },
+        "table": "Loan"
+      }
+    }
+  ]
+}

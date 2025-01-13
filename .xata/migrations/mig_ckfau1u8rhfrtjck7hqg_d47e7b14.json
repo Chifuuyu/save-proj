@@ -1,0 +1,14 @@
+{
+  "id": "mig_ckfau1u8rhfrtjck7hqg",
+  "parentID": "mig_ckfatve8rhfrtjck7hp0",
+  "checksum": "1:d47e7b14bd6791407c8eb3a7af1f86bf976dcab6d82adf8c064610a341608528",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "NameI",
+        "oldName": "Namew",
+        "table": "Income"
+      }
+    }
+  ]
+}

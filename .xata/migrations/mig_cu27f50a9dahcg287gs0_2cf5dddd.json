@@ -1,0 +1,14 @@
+{
+  "id": "mig_cu27f50a9dahcg287gs0",
+  "parentID": "mig_cu27f28a9dahcg287gr0",
+  "checksum": "1:2cf5dddd2767c5d0fdb19470f8bf2346c688ef7689426161d69b8a944c56b5a6",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "expense",
+        "oldName": "Expense",
+        "table": "Expenses"
+      }
+    }
+  ]
+}

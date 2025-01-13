@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfapf2vcfk9t36bv1kg",
+  "parentID": "mig_ckfapbpfel30uspmhmig",
+  "checksum": "1:3e0555a6905eeaba9a97cebccf69079b2987645fdfa01d07f8932718c90ee71f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "LastName",
+          "type": "string"
+        },
+        "table": "Person"
+      }
+    }
+  ]
+}

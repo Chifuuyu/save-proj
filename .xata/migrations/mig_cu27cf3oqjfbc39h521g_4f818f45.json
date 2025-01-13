@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu27cf3oqjfbc39h521g",
+  "parentID": "mig_cu27bgoa9dahcg287gn0",
+  "checksum": "1:4f818f452a937a52eaa8bd1f52bca0872482a4b3efb890991283527154b53af8",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Saved"
+      }
+    }
+  ]
+}

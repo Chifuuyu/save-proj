@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Paul-Anthony-Ragsac-s-workspace-96i8v1.us-east-1.xata.sh/db/loan-database",
+  "codegen": {
+    "output": "src/xata.ts",
+    "moduleType": "deno"
+  }
+}

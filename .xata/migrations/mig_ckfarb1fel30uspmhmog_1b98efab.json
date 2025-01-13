@@ -1,0 +1,12 @@
+{
+  "id": "mig_ckfarb1fel30uspmhmog",
+  "parentID": "mig_ckfara1fel30uspmhmn0",
+  "checksum": "1:1b98efab0865379fbaed7282fb803deca5e70be4caedf1d500ad6cbc4f711d67",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Goal"
+      }
+    }
+  ]
+}

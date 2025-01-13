@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfar21fel30uspmhmlg",
+  "parentID": "mig_ckfaqbhfel30uspmhmkg",
+  "checksum": "1:9eca9fb3b3a2c29665bc5250e5acb9c4ca81903be32c216bcbdbc38738dd401f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Description",
+          "type": "string"
+        },
+        "table": "Loan"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mig_ckfbims80rf798f6gbag",
+  "parentID": "mig_ckfbeoov2e8b9mca2790",
+  "checksum": "1:f2efbcf8062f6dc50a5c72d55b25d7fe376b5692da8e65594404d4734d5f7f01",
+  "operations": [
+    {
+      "addTable": {
+        "table": "PartitionedLoan"
+      }
+    }
+  ]
+}

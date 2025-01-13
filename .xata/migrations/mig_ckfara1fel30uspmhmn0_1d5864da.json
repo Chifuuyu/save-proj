@@ -1,0 +1,12 @@
+{
+  "id": "mig_ckfara1fel30uspmhmn0",
+  "parentID": "mig_ckfar6avcfk9t36bv1ng",
+  "checksum": "1:1d5864da9055ad8d831407cd28849f8e6b5c6b38470c214e21e174d46d7dd995",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Income"
+      }
+    }
+  ]
+}

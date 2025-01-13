@@ -1,0 +1,16 @@
+{
+  "id": "mig_cu27f28a9dahcg287gr0",
+  "parentID": "mig_cu27esroqjfbc39h524g",
+  "checksum": "1:279bfebcb190eadc9458cbc3a6ea4ca49876bed120982d5c9fb38f6cce7cd80e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "expenseDate",
+          "type": "datetime"
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

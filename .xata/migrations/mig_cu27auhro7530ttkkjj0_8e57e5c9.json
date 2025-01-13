@@ -1,0 +1,16 @@
+{
+  "id": "mig_cu27auhro7530ttkkjj0",
+  "parentID": "mig_ckfck3k80rf798f6ggjg",
+  "checksum": "1:8e57e5c984a15fe50bcb20a9ff02a881b5d99b722f2680e66cbf89fade745726",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "image",
+          "type": "file"
+        },
+        "table": "Goal"
+      }
+    }
+  ]
+}

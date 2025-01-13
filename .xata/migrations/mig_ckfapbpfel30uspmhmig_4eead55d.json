@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfapbpfel30uspmhmig",
+  "parentID": "mig_ckfap31fel30uspmhmhg",
+  "checksum": "1:4eead55d6174f1971bf9ade2a4eedf11b7653fef6a498de241ff4182e2f2bcf4",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "FirstName",
+          "type": "string"
+        },
+        "table": "Person"
+      }
+    }
+  ]
+}

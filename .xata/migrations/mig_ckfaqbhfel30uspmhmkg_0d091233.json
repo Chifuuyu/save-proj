@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfaqbhfel30uspmhmkg",
+  "parentID": "mig_ckfaq7pfel30uspmhmjg",
+  "checksum": "1:0d0912330580328adc5309331edeecc8720353f47485c5d68a39c94fd1400b75",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "InterestRate",
+          "type": "int"
+        },
+        "table": "Loan"
+      }
+    }
+  ]
+}

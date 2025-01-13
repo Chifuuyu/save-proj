@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfatl68rhfrtjck7hn0",
+  "parentID": "mig_ckfatg68rhfrtjck7hm0",
+  "checksum": "1:45bbd3295493d1bd178f2ef801f4ba49ad88e9ccfd25173616e92c3ace074753",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "WhatMonth",
+          "type": "datetime"
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

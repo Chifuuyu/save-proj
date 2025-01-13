@@ -1,0 +1,12 @@
+{
+  "id": "mig_ckfaq22vcfk9t36bv1m0",
+  "parentID": "mig_ckfapf2vcfk9t36bv1kg",
+  "checksum": "1:c3f39509a5c780335ad30cee9c7a8e308b3ed8d7250da2f90c3c09e28af09f86",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Loan"
+      }
+    }
+  ]
+}

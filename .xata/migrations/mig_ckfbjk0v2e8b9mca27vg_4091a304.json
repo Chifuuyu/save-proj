@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfbjk0v2e8b9mca27vg",
+  "parentID": "mig_ckfbjfs80rf798f6gbe0",
+  "checksum": "1:4091a304028a2947615c942fa1b8fe3b3a67f907734ae1a18ebd244f730e2331",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "DateDue",
+          "type": "datetime"
+        },
+        "table": "PartitionedLoan"
+      }
+    }
+  ]
+}

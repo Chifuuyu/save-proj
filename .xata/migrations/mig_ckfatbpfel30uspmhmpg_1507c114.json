@@ -1,0 +1,16 @@
+{
+  "id": "mig_ckfatbpfel30uspmhmpg",
+  "parentID": "mig_ckfarb1fel30uspmhmog",
+  "checksum": "1:1507c11483a7c971500cb40d537d61ccbb82c4ecf8ef129bc2e2ae6fe81ca219",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Name",
+          "type": "string"
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

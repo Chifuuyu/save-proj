@@ -1,0 +1,14 @@
+{
+  "id": "mig_ckfattm8rhfrtjck7ho0",
+  "parentID": "mig_ckfatl68rhfrtjck7hn0",
+  "checksum": "1:64bd34e9c03d51573732e47e6abbfc04945fb7d14bfdf533c6f52a5a9d94d4f3",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "ExpenseMonth",
+        "oldName": "WhatMonth",
+        "table": "Expenses"
+      }
+    }
+  ]
+}
