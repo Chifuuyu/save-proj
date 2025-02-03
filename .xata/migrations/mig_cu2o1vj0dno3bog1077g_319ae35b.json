@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2o1vj0dno3bog1077g",
+  "parentID": "mig_cu2o1sj0dno3bog1076g",
+  "checksum": "1:319ae35b2dcc4e57a1bc2911e56721a92b37532139ec99a3c57058b6584f136b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "milestone_date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "Milestones"
+      }
+    }
+  ]
+}

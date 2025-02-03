@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu2ldcel97ufmn0d38h0",
+  "parentID": "mig_cu2ld8ul97ufmn0d38fg",
+  "checksum": "1:c6614b2a0295a535204da01b9b7345d2f4924baeb4edb22ad4acc810f121a6eb",
+  "operations": [
+    {
+      "addTable": {
+        "table": "LoanPayments"
+      }
+    }
+  ]
+}

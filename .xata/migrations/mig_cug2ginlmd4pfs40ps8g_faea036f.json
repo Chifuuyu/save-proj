@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2ginlmd4pfs40ps8g",
+  "parentID": "mig_cu4q5nul97ufmn0d3nlg",
+  "checksum": "1:faea036f26ea73684f901030d88630da1bab7cb884091bcd0da6582f60199097",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "type",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "income"
+        },
+        "table": "Categories"
+      }
+    }
+  ]
+}

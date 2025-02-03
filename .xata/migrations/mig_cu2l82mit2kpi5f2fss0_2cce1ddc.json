@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2l82mit2kpi5f2fss0",
+  "parentID": "mig_cu2l7vj0dno3bog105t0",
+  "checksum": "1:2cce1ddc10ff9a315112d0134537c04ed4e9b5a78dd1eeef7d92c9feedae97fc",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "last_name",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "last"
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}

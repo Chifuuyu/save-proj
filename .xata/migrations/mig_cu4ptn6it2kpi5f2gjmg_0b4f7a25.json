@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu4ptn6it2kpi5f2gjmg",
+  "parentID": "mig_cu4ptd6l97ufmn0d3ni0",
+  "checksum": "1:0b4f7a2558ebb1d3101b17662260e4611bcbb34e5436951cf6e8edbb568829e1",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "reminder_type",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "goal_reached"
+        },
+        "table": "Notifications"
+      }
+    }
+  ]
+}

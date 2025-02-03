@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lgheit2kpi5f2fthg",
+  "parentID": "mig_cu2lfp6it2kpi5f2ftgg",
+  "checksum": "1:df3190bee10812aeb05788a8482585d0cfb1f463cfeeb2898cc270e8d61b8c90",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "status",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "in_progress"
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

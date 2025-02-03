@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu2lbnmit2kpi5f2ft70",
+  "parentID": "mig_cu2lbk6it2kpi5f2ft50",
+  "checksum": "1:4c05dd535f637e22b794647b8a34938aea6ca181c7dbd9569124da68694db1e8",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "date",
+        "table": "Users"
+      }
+    }
+  ]
+}

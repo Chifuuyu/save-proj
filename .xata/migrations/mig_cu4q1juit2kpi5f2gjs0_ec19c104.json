@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu4q1juit2kpi5f2gjs0",
+  "parentID": "mig_cu4pvs6l97ufmn0d3nk0",
+  "checksum": "1:ec19c10415a7f22196a573d1c8c16bb9e43f6211d972499ca73bb2f04a9b5698",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "purpose",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "expense"
+        },
+        "table": "Categories"
+      }
+    }
+  ]
+}

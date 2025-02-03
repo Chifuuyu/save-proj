@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lfhmit2kpi5f2ftfg",
+  "parentID": "mig_cu2lfeuit2kpi5f2fteg",
+  "checksum": "1:0a32366312792cf04de55ac5b735e8494309eb37539679f2f33bc07c1c46000e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "saved_amount",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

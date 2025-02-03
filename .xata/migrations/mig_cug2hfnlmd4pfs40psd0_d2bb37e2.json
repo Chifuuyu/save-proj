@@ -1,0 +1,12 @@
+{
+  "id": "mig_cug2hfnlmd4pfs40psd0",
+  "parentID": "mig_cug2ginlmd4pfs40ps8g",
+  "checksum": "1:d2bb37e2d84f747f8fb2b03bfd22fa2f8cbabc51fcee7b8f882767be9c6b610a",
+  "operations": [
+    {
+      "addTable": {
+        "table": "LoanInstallments"
+      }
+    }
+  ]
+}

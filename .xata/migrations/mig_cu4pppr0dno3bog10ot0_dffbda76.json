@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu4pppr0dno3bog10ot0",
+  "parentID": "mig_cu4ppkmit2kpi5f2gjc0",
+  "checksum": "1:dffbda764edd4a55785cbe176a9a3abce41d246e84163d876a7cf3abd4eee354",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "Notifications"
+      }
+    }
+  ]
+}

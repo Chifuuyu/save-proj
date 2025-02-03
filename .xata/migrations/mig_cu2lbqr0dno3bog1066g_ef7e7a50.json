@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lbqr0dno3bog1066g",
+  "parentID": "mig_cu2lbnmit2kpi5f2ft70",
+  "checksum": "1:ef7e7a5000a018e77fa8afe6d78ecbaa24ef05b8c62b9791cd339bb8b05fd477",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

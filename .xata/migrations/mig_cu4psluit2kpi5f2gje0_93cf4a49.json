@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu4psluit2kpi5f2gje0",
+  "parentID": "mig_cu4psh30dno3bog10ovg",
+  "checksum": "1:93cf4a49294af6f1e9c58c171efb844801b5cc2756574d5cfa4684aabfce8143",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "Transactions"
+      }
+    }
+  ]
+}

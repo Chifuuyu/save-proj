@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu2larmit2kpi5f2ft20",
+  "parentID": "mig_cu2laeuit2kpi5f2ft0g",
+  "checksum": "1:5ad8402522977adf0280f5877012d45de112da6f5bdbfc67d99bb7c88520b6f6",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Expenses"
+      }
+    }
+  ]
+}

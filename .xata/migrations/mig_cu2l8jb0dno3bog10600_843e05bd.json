@@ -1,0 +1,16 @@
+{
+  "id": "mig_cu2l8jb0dno3bog10600",
+  "parentID": "mig_cu2l8b30dno3bog105u0",
+  "checksum": "1:843e05bd2969772ebdaf8361d10dc8b9afcc4783f94a9f64d692d6348c0037f3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "password_hash",
+          "type": "text"
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}

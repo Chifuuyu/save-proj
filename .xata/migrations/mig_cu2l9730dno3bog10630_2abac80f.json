@@ -1,0 +1,17 @@
+{
+  "id": "mig_cu2l9730dno3bog10630",
+  "parentID": "mig_cu2l8u30dno3bog10620",
+  "checksum": "1:2abac80f210b429114fe08ff789c1e8b751b9c75136e94fb6dcb95861e16cf7e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "phone_number",
+          "type": "int",
+          "unique": true
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}

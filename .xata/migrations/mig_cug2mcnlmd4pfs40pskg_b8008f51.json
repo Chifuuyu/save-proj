@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2mcnlmd4pfs40pskg",
+  "parentID": "mig_cug2m5etrfea4ndapdag",
+  "checksum": "1:b8008f513e16467d44329702bb79c752cbb30ff7b49a939e02f458244ee0a222",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "next_execution_date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "RecurringTransactionTemplates"
+      }
+    }
+  ]
+}

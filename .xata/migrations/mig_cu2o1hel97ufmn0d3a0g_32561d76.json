@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu2o1hel97ufmn0d3a0g",
+  "parentID": "mig_cu2o1ful97ufmn0d39vg",
+  "checksum": "1:32561d76431dc822b8de572cf83f356b204ae98ed655ebe845baa194f6f0c620",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "description",
+        "table": "Milestones"
+      }
+    }
+  ]
+}

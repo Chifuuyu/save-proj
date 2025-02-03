@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu4q2hr0dno3bog10p2g",
+  "parentID": "mig_cu4q22b0dno3bog10p1g",
+  "checksum": "1:cfb5bc84e807b8cfbf786de7e1e21101fb51e54cd8f86ed7a85f39457e4834d3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "category",
+          "type": "link",
+          "link": {
+            "table": "Categories"
+          }
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

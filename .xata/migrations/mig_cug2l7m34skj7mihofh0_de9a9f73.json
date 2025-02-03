@@ -1,0 +1,12 @@
+{
+  "id": "mig_cug2l7m34skj7mihofh0",
+  "parentID": "mig_cug2igvlmd4pfs40psfg",
+  "checksum": "1:de9a9f73b3760cacea1e899e9fe3ea04b791360c58db6de88457bf2dc1364086",
+  "operations": [
+    {
+      "addTable": {
+        "table": "RecurringTransactionTemplates"
+      }
+    }
+  ]
+}

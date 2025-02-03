@@ -1,0 +1,13 @@
+{
+  "id": "mig_cug2m1flmd4pfs40psjg",
+  "parentID": "mig_cug2lvutrfea4ndapd8g",
+  "checksum": "1:b5a74c89f9e10b8f3aa790af8db46437c3b5978e6adb7e8085952e3fbf316978",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "sad",
+        "table": "RecurringTransactionTemplates"
+      }
+    }
+  ]
+}

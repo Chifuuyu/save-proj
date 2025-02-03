@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu2laeuit2kpi5f2ft0g",
+  "parentID": "mig_cu2la4mit2kpi5f2fst0",
+  "checksum": "1:10ab91c5a29e7bb86ce4ec7a27ac018a75afdae3ff9b2830d1642fa1293a01fd",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "SavingsRecords"
+      }
+    }
+  ]
+}

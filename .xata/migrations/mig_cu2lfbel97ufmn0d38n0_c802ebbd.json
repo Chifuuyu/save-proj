@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lfbel97ufmn0d38n0",
+  "parentID": "mig_cu2lf5mit2kpi5f2ftdg",
+  "checksum": "1:c802ebbde921c8750fbbd020a0b525969c7e031deaac8dabad5deb7f5c797f7d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "title",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "title"
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

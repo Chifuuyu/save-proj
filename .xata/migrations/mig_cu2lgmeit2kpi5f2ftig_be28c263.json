@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lgmeit2kpi5f2ftig",
+  "parentID": "mig_cu2lgheit2kpi5f2fthg",
+  "checksum": "1:be28c26388f3922689890a75a7433ab69b9b04c53dac937c7ffec728f2558aa8",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "priority_level",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "3"
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

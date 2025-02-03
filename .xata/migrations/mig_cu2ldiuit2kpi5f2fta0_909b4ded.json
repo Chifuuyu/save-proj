@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu2ldiuit2kpi5f2fta0",
+  "parentID": "mig_cu2ldcel97ufmn0d38h0",
+  "checksum": "1:909b4ded379c1cee203ed9584b1a9f309c0585158f02be27b4d36b45f9965e87",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "LoanPayments"
+      }
+    }
+  ]
+}

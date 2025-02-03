@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu2o19el97ufmn0d39ug",
+  "parentID": "mig_cu2lh26it2kpi5f2ftkg",
+  "checksum": "1:1b55f8ca43e6613e7a5986eda8391b356431f1f32f1466aa12a2fb1efb907319",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Milestones"
+      }
+    }
+  ]
+}

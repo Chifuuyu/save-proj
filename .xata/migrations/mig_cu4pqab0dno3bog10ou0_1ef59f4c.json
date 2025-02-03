@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu4pqab0dno3bog10ou0",
+  "parentID": "mig_cu4pq16it2kpi5f2gjd0",
+  "checksum": "1:1ef59f4c49e551911fcc951656639fdcfcc9f3a4f00e96723f4d5201e34690b8",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "is_read",
+          "type": "bool",
+          "notNull": true,
+          "defaultValue": "false"
+        },
+        "table": "Notifications"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mig_cug2og6trfea4ndapdl0",
+  "parentID": "mig_cug2oavlmd4pfs40psmg",
+  "checksum": "1:539ec7854281aab574d0344b56e04e35517072b3c2795cfdc0d289ef7338923f",
+  "operations": [
+    {
+      "addTable": {
+        "table": "AuditLogs"
+      }
+    }
+  ]
+}

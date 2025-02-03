@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu2lavel97ufmn0d38eg",
+  "parentID": "mig_cu2larmit2kpi5f2ft20",
+  "checksum": "1:fe18bf4e2f33c38da4fa0943d123e4c2081c0df0ba794da8f26e180b8658a8eb",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

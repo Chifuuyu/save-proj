@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2o1sj0dno3bog1076g",
+  "parentID": "mig_cu2o1o6it2kpi5f2fun0",
+  "checksum": "1:bd3353d01b93e1a21c213393ffc236a7ff9a7e1978048c81904797ebd06f3c02",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "achieved_amount",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "Milestones"
+      }
+    }
+  ]
+}

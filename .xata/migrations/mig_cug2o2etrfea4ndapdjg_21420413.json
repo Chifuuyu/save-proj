@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2o2etrfea4ndapdjg",
+  "parentID": "mig_cug2nretrfea4ndapdig",
+  "checksum": "1:214204139d7090ec687e136e958ad462c395d33d83151ff86e4cc3e36728a254",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "next_execution_date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "RecurringGoalContributions"
+      }
+    }
+  ]
+}

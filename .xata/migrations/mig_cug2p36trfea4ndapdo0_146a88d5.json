@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2p36trfea4ndapdo0",
+  "parentID": "mig_cug2og6trfea4ndapdl0",
+  "checksum": "1:146a88d51e99d5179993e21a16b068c1cfdf4463d5c7af77811ae690a09c2c03",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "table_name",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "table_name"
+        },
+        "table": "AuditLogs"
+      }
+    }
+  ]
+}

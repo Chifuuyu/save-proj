@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2ldreit2kpi5f2ftc0",
+  "parentID": "mig_cu2ldnmit2kpi5f2ftb0",
+  "checksum": "1:172f0554b37cf88016c280fa3d94894a576ce86387506ffea57fc2cbf2def2f3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "start_date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "LoanPayments"
+      }
+    }
+  ]
+}

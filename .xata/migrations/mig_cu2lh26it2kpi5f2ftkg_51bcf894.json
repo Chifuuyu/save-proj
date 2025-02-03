@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu2lh26it2kpi5f2ftkg",
+  "parentID": "mig_cu2lgueit2kpi5f2ftjg",
+  "checksum": "1:51bcf8943fee0218164ec9792c18920ac68bb717ab8636d196c4929702e7925a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

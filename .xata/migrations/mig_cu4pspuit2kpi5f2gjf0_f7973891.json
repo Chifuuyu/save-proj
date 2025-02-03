@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu4pspuit2kpi5f2gjf0",
+  "parentID": "mig_cu4psluit2kpi5f2gje0",
+  "checksum": "1:f7973891ad53f2d61b61a4c15c0cf94d188d32f44901687ae480514f0d0d63e0",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "amount",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "Transactions"
+      }
+    }
+  ]
+}

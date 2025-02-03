@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2level97ufmn0d38m0",
+  "parentID": "mig_cu2leqml97ufmn0d38l0",
+  "checksum": "1:10e489879bb1dc507d799ac760274b3cee9a2f979a8eee311fdb4e6776e38b39",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "text"
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

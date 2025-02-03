@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu2l3rul97ufmn0d38bg",
+  "parentID": "mig_cu2l3r6it2kpi5f2fsog",
+  "checksum": "1:fe204ac862cf8cd0e88fe2791052ef20ce98d6ae06b6b4bae3230ca9d3ea7fc1",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "Person"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu4pv5el97ufmn0d3nj0",
+  "parentID": "mig_cu4pv2b0dno3bog10p0g",
+  "checksum": "1:92a959e48bb4849361b22e7b3beebabf5b9509be78af8e751a9d8e28b014a2ef",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "description"
+        },
+        "table": "Categories"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2n86trfea4ndapdeg",
+  "parentID": "mig_cug2mfutrfea4ndapdbg",
+  "checksum": "1:d5994811a56a5d6509f68223b4bde42b352591d0712f29d6e6de5e359847faad",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "is_active",
+          "type": "bool",
+          "notNull": true,
+          "defaultValue": "true"
+        },
+        "table": "RecurringTransactionTemplates"
+      }
+    }
+  ]
+}

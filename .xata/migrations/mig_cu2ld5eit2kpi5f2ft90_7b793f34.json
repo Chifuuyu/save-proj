@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu2ld5eit2kpi5f2ft90",
+  "parentID": "mig_cu2ld3b0dno3bog10690",
+  "checksum": "1:7b793f3468fac1517f1e560e6f27e8015a810e05731039c0156d7e1a67bd0ab3",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "type",
+        "table": "LoanTypes"
+      }
+    }
+  ]
+}

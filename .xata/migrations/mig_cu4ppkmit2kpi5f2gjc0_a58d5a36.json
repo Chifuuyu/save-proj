@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu4ppkmit2kpi5f2gjc0",
+  "parentID": "mig_cu2o24r0dno3bog1078g",
+  "checksum": "1:a58d5a36e605fc8c878a9c1be0f04698cfddadcc413a54d00daf3bf375dccc17",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Notifications"
+      }
+    }
+  ]
+}

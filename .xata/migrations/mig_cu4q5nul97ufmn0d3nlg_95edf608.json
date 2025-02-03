@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu4q5nul97ufmn0d3nlg",
+  "parentID": "mig_cu4q2hr0dno3bog10p2g",
+  "checksum": "1:95edf60842fc66131a6aec5867d3b8e2594c53196639797030a2cf44081564ad",
+  "operations": [
+    {
+      "addTable": {
+        "table": "RecurringGoalContributions"
+      }
+    }
+  ]
+}

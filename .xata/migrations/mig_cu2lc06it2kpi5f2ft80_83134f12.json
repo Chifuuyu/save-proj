@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lc06it2kpi5f2ft80",
+  "parentID": "mig_cu2lbqr0dno3bog1066g",
+  "checksum": "1:83134f128e5f20a89132a5540a4d75e4cd8f9bf3def36f9fc90324b170ae11af",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "is_recurring",
+          "type": "bool",
+          "notNull": true,
+          "defaultValue": "false"
+        },
+        "table": "Expenses"
+      }
+    }
+  ]
+}

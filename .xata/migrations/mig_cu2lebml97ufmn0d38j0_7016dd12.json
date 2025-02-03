@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu2lebml97ufmn0d38j0",
+  "parentID": "mig_cu2lduul97ufmn0d38i0",
+  "checksum": "1:7016dd12d3ab54cee8a02d0d24af654347c89e528b502198a8d98abc395925b4",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "loan_type",
+          "type": "link",
+          "link": {
+            "table": "LoanTypes"
+          }
+        },
+        "table": "LoanPayments"
+      }
+    }
+  ]
+}

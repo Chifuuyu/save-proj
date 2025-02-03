@@ -1,0 +1,19 @@
+{
+  "id": "mig_cu2o24r0dno3bog1078g",
+  "parentID": "mig_cu2o1vj0dno3bog1077g",
+  "checksum": "1:eef16c21b46ad2a4849f019a5372294212249a441d00f986046363dfcde4a216",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "goal",
+          "type": "link",
+          "link": {
+            "table": "Goals"
+          }
+        },
+        "table": "Milestones"
+      }
+    }
+  ]
+}

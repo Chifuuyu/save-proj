@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu2l3o6l97ufmn0d38ag",
+  "parentID": "mig_cu2l3nb0dno3bog105q0",
+  "checksum": "1:3fa480429dcc02d1418561adf023f82d416b8e26396e0564ec0f6985b35dc7eb",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "Loan"
+      }
+    }
+  ]
+}

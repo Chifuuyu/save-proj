@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2l9vml97ufmn0d38cg",
+  "parentID": "mig_cu2l9kb0dno3bog1065g",
+  "checksum": "1:8f0017242f6ce48c04d878b70242aaa3c5a43923cb5b2c5f5c1b6452dd93513f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "descriptions",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "text"
+        },
+        "table": "SavingsRecords"
+      }
+    }
+  ]
+}

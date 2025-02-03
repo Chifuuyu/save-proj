@@ -1,0 +1,19 @@
+{
+  "id": "mig_cug2lhetrfea4ndapd6g",
+  "parentID": "mig_cug2l7m34skj7mihofh0",
+  "checksum": "1:c8e7b6afafda831b0e97f5249d01ad372299a5b793730d362e557299cb6318df",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "RecurringTransactionTemplates"
+      }
+    }
+  ]
+}

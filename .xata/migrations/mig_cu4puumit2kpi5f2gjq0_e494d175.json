@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu4puumit2kpi5f2gjq0",
+  "parentID": "mig_cu4puqeit2kpi5f2gjp0",
+  "checksum": "1:e494d175272851665974ed6787ac749e0a12ba3e6702b199b6d556a801bc26d7",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "Categories",
+        "oldName": "Category"
+      }
+    }
+  ]
+}

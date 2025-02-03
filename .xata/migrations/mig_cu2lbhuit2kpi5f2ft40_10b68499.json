@@ -1,0 +1,17 @@
+{
+  "id": "mig_cu2lbhuit2kpi5f2ft40",
+  "parentID": "mig_cu2lb6uit2kpi5f2ft30",
+  "checksum": "1:10b6849950b81d04094a8a17d4cfc379ad9b9561f29b02d0ad30ecbc02c67a66",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "date",
+          "type": "datetime",
+          "defaultValue": "now"
+        },
+        "table": "SavingsRecords"
+      }
+    }
+  ]
+}

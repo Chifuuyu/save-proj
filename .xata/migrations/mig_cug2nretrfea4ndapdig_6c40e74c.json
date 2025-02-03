@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2nretrfea4ndapdig",
+  "parentID": "mig_cug2nku34skj7mihofi0",
+  "checksum": "1:6c40e74cb7192917fe0e8dc18f4a5fd36f46b5ed8178fdc7bbc7c0c17325b3eb",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "frequency",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "weekly"
+        },
+        "table": "RecurringGoalContributions"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mig_cu2lctj0dno3bog10680",
+  "parentID": "mig_cu2lc06it2kpi5f2ft80",
+  "checksum": "1:1a78a8d3a8fa35747ecfcc25346b9b1c9e89be7674b893b2197ad34148eb5b4a",
+  "operations": [
+    {
+      "addTable": {
+        "table": "LoanTypes"
+      }
+    }
+  ]
+}

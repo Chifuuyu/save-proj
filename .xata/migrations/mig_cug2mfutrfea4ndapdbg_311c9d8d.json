@@ -1,0 +1,16 @@
+{
+  "id": "mig_cug2mfutrfea4ndapdbg",
+  "parentID": "mig_cug2mcnlmd4pfs40pskg",
+  "checksum": "1:311c9d8de68004b3afb71990211ea3c9262104d1c506a9e77b4f4db31c840951",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "last_execution_date",
+          "type": "datetime"
+        },
+        "table": "RecurringTransactionTemplates"
+      }
+    }
+  ]
+}

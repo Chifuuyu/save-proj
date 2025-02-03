@@ -1,0 +1,19 @@
+{
+  "id": "mig_cug2nku34skj7mihofi0",
+  "parentID": "mig_cug2neutrfea4ndapdgg",
+  "checksum": "1:d81fe8993c36992779cd2c5709c8ef619602220edb578f844aabf47afea2b439",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "goal",
+          "type": "link",
+          "link": {
+            "table": "Goals"
+          }
+        },
+        "table": "RecurringGoalContributions"
+      }
+    }
+  ]
+}

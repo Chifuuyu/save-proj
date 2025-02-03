@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lbk6it2kpi5f2ft50",
+  "parentID": "mig_cu2lbhuit2kpi5f2ft40",
+  "checksum": "1:b86d053023766f20dc8c24f1aa743eeb1cc0841c5bf40877612fb1976bc0bca2",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu2lfp6it2kpi5f2ftgg",
+  "parentID": "mig_cu2lfmul97ufmn0d38p0",
+  "checksum": "1:b4a92409f55249c38e4cd5136fe41e5d697fbfb96405241565c442f2b98730d5",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "due_date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "Goals"
+      }
+    }
+  ]
+}

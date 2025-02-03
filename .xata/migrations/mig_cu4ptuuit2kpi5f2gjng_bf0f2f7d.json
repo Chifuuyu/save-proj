@@ -1,0 +1,18 @@
+{
+  "id": "mig_cu4ptuuit2kpi5f2gjng",
+  "parentID": "mig_cu4ptn6it2kpi5f2gjmg",
+  "checksum": "1:bf0f2f7da1860a2a022255fc3054a9d50e993daefc0a2fdbd1dcae58e242712c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "notification_type",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "general"
+        },
+        "table": "Notifications"
+      }
+    }
+  ]
+}

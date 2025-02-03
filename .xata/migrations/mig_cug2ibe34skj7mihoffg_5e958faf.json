@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2ibe34skj7mihoffg",
+  "parentID": "mig_cug2i5m34skj7mihofeg",
+  "checksum": "1:5e958fafccf2a4bd5d6f681be11e891cea11b0faea68089206b0935fe17ef896",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "amount",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "LoanInstallments"
+      }
+    }
+  ]
+}

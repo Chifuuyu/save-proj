@@ -1,0 +1,13 @@
+{
+  "id": "mig_cu2l3mj0dno3bog105p0",
+  "parentID": "mig_cu2l3fel97ufmn0d389g",
+  "checksum": "1:dfb1f82e3698bef3ab6f083bf7bc2aa2fde55b1f6d9335c4abc73c85b1292062",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "Loan",
+        "table": "PartitionedLoan"
+      }
+    }
+  ]
+}

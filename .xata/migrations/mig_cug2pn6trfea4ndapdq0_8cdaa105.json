@@ -1,0 +1,12 @@
+{
+  "id": "mig_cug2pn6trfea4ndapdq0",
+  "parentID": "mig_cug2pj634skj7mihofl0",
+  "checksum": "1:8cdaa1058f9c020dcce41c16f097227bacb45efa36e6b2154fd1e5aa558f4633",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "AuditLogs"
+      }
+    }
+  ]
+}

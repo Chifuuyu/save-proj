@@ -1,0 +1,14 @@
+{
+  "id": "mig_cu2leqml97ufmn0d38l0",
+  "parentID": "mig_cu2lel6l97ufmn0d38k0",
+  "checksum": "1:180d0b47e8979edf0c6c59570d6b39ceda018df100723346e57c00a4b36f08ff",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "description",
+        "oldName": "descriptions",
+        "table": "SavingsRecords"
+      }
+    }
+  ]
+}

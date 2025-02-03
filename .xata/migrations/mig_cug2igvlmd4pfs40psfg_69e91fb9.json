@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug2igvlmd4pfs40psfg",
+  "parentID": "mig_cug2ibe34skj7mihoffg",
+  "checksum": "1:69e91fb9ffb7710a684f49353502d2eb1c4129010e0454c6dbf9a46ddc854792",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "payment_date",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "LoanInstallments"
+      }
+    }
+  ]
+}
