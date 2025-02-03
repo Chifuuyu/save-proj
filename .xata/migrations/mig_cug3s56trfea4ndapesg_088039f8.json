@@ -1,0 +1,13 @@
+{
+  "id": "mig_cug3s56trfea4ndapesg",
+  "parentID": "mig_cug2pn6trfea4ndapdq0",
+  "checksum": "1:088039f874c8b7f03e6f586145ea66bb43d2cc45072b655f383957fd5e3d42b2",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "phone_number",
+        "table": "Users"
+      }
+    }
+  ]
+}

@@ -19,7 +19,12 @@ const tables = [
       { name: "last_name", type: "text", notNull: true, defaultValue: "last" },
       { name: "email", type: "text", notNull: true, defaultValue: "email.com" },
       { name: "password_hash", type: "text" },
-      { name: "phone_number", type: "int", unique: true },
+      {
+        name: "phone_number",
+        type: "text",
+        notNull: true,
+        defaultValue: "9204102048",
+      },
     ],
     revLinks: [
       { column: "user", table: "SavingsRecords" },

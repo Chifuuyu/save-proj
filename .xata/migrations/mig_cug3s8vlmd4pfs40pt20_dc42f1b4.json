@@ -1,0 +1,18 @@
+{
+  "id": "mig_cug3s8vlmd4pfs40pt20",
+  "parentID": "mig_cug3s56trfea4ndapesg",
+  "checksum": "1:dc42f1b4c006d4961c152ca94becaf7fc0f989df89c31ed8f63512f153993aee",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "phone_number",
+          "type": "text",
+          "notNull": true,
+          "defaultValue": "9204102048"
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}

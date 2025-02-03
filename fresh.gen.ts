@@ -5,10 +5,9 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $api_sendmessage from "./routes/api/sendmessage.ts";
-import * as $api_users from "./routes/api/users.ts";
+import * as $api_signup from "./routes/api/signup.ts";
 import * as $index from "./routes/index.tsx";
-import * as $login from "./routes/login.tsx";
-import * as $logout from "./routes/logout.tsx";
+import * as $signup from "./routes/signup.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -17,10 +16,9 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/api/sendmessage.ts": $api_sendmessage,
-    "./routes/api/users.ts": $api_users,
+    "./routes/api/signup.ts": $api_signup,
     "./routes/index.tsx": $index,
-    "./routes/login.tsx": $login,
-    "./routes/logout.tsx": $logout,
+    "./routes/signup.tsx": $signup,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
