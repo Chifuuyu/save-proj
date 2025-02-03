@@ -4,24 +4,36 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $api_login from "./routes/api/login.ts";
 import * as $api_sendmessage from "./routes/api/sendmessage.ts";
 import * as $api_signup from "./routes/api/signup.ts";
 import * as $index from "./routes/index.tsx";
+import * as $login from "./routes/login.tsx";
 import * as $signup from "./routes/signup.tsx";
 import * as $Counter from "./islands/Counter.tsx";
+import * as $LoginForm from "./islands/LoginForm.tsx";
+import * as $SignupForm from "./islands/SignupForm.tsx";
+import * as $Toast from "./islands/Toast.tsx";
+import * as $Toaster from "./islands/Toaster.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/api/login.ts": $api_login,
     "./routes/api/sendmessage.ts": $api_sendmessage,
     "./routes/api/signup.ts": $api_signup,
     "./routes/index.tsx": $index,
+    "./routes/login.tsx": $login,
     "./routes/signup.tsx": $signup,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
+    "./islands/LoginForm.tsx": $LoginForm,
+    "./islands/SignupForm.tsx": $SignupForm,
+    "./islands/Toast.tsx": $Toast,
+    "./islands/Toaster.tsx": $Toaster,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

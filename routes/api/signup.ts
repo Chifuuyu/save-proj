@@ -45,7 +45,7 @@ export const handler: Handlers = {
         phone_number,
       });
 
-      return new Response(JSON.stringify({ success: true }), {
+      return new Response(JSON.stringify({ toast: "Sign up successful! 🎉" }), {
         status: 200,
         headers: { "Content-Type": "application/json" },
       });
