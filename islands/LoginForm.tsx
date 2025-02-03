@@ -25,7 +25,7 @@ export default function LoginForm() {
       };
 
       // Redirect to dashboard or home page
-      window.location.href = "/";
+      globalThis.location.href = "/";
     } catch (error) {
       toastSignal.value = {
         message: (error as Error).message,
