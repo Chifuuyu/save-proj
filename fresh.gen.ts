@@ -4,36 +4,58 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $api_category from "./routes/api/category.ts";
+import * as $api_expense from "./routes/api/expense.ts";
+import * as $api_goal from "./routes/api/goal.ts";
+import * as $api_loanpayment from "./routes/api/loanpayment.ts";
 import * as $api_login from "./routes/api/login.ts";
+import * as $api_milestone from "./routes/api/milestone.ts";
+import * as $api_savingsrecord from "./routes/api/savingsrecord.ts";
 import * as $api_sendmessage from "./routes/api/sendmessage.ts";
 import * as $api_signup from "./routes/api/signup.ts";
+import * as $api_transaction from "./routes/api/transaction.ts";
+import * as $dashboard from "./routes/dashboard.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $login from "./routes/login.tsx";
 import * as $signup from "./routes/signup.tsx";
-import * as $Counter from "./islands/Counter.tsx";
+import * as $AddTransactionDialog from "./islands/AddTransactionDialog.tsx";
+import * as $Calendar from "./islands/Calendar.tsx";
+import * as $ChartIsland from "./islands/ChartIsland.tsx";
 import * as $LoginForm from "./islands/LoginForm.tsx";
 import * as $SignupForm from "./islands/SignupForm.tsx";
 import * as $Toast from "./islands/Toast.tsx";
 import * as $Toaster from "./islands/Toaster.tsx";
+import * as $Transactions from "./islands/Transactions.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/api/category.ts": $api_category,
+    "./routes/api/expense.ts": $api_expense,
+    "./routes/api/goal.ts": $api_goal,
+    "./routes/api/loanpayment.ts": $api_loanpayment,
     "./routes/api/login.ts": $api_login,
+    "./routes/api/milestone.ts": $api_milestone,
+    "./routes/api/savingsrecord.ts": $api_savingsrecord,
     "./routes/api/sendmessage.ts": $api_sendmessage,
     "./routes/api/signup.ts": $api_signup,
+    "./routes/api/transaction.ts": $api_transaction,
+    "./routes/dashboard.tsx": $dashboard,
     "./routes/index.tsx": $index,
     "./routes/login.tsx": $login,
     "./routes/signup.tsx": $signup,
   },
   islands: {
-    "./islands/Counter.tsx": $Counter,
+    "./islands/AddTransactionDialog.tsx": $AddTransactionDialog,
+    "./islands/Calendar.tsx": $Calendar,
+    "./islands/ChartIsland.tsx": $ChartIsland,
     "./islands/LoginForm.tsx": $LoginForm,
     "./islands/SignupForm.tsx": $SignupForm,
     "./islands/Toast.tsx": $Toast,
     "./islands/Toaster.tsx": $Toaster,
+    "./islands/Transactions.tsx": $Transactions,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

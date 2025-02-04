@@ -30,7 +30,9 @@ export const handler: Handlers = {
       }
 
       // Login successful
-      return new Response("OK");
+      const headers = new Headers();
+      headers.append("Set-Cookie", `user_id=${user.id}; HttpOnly; Path=/`);
+      return new Response("OK", { headers });
     } catch (error) {
       console.error("Login error:", error);
       return new Response("Login failed", { status: 500 });
