@@ -75,7 +75,7 @@ export default function Calendar({ setSelectedDate, closeCalendar, selectedDate 
       <div
         ref={calendarRef}
         class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-gray-800 shadow-xl rounded-2xl p-6 w-80 transition-opacity duration-200 z-50"
-        style={{ height: "460px" }}
+        style={{ height: "460px" }} // Fixed container height
       >
         {/* Month & Year Header (Always in the same position) */}
         <div class="flex items-center justify-between mb-4 relative z-10">
@@ -86,7 +86,7 @@ export default function Calendar({ setSelectedDate, closeCalendar, selectedDate 
           )}
 
           <div class="flex flex-col items-center w-full">
-            <h2 class="text-lg font-bold">{format(currentDate, "MMMM")}</h2>
+            <h2 class="text-xl font-bold">{format(currentDate, "MMMM")}</h2>
             <button
               onClick={() => setIsYearGridOpen(!isYearGridOpen)}
               class="text-sm font-semibold hover:text-indigo-500"
@@ -102,9 +102,9 @@ export default function Calendar({ setSelectedDate, closeCalendar, selectedDate 
           )}
         </div>
 
-        {/* Year Grid (Appears below the month and date grid, integrated in the same container) */}
-        {isYearGridOpen ? (
-          <div class="grid grid-cols-3 gap-2 mb-4">
+        {/* Year Grid (Integrated in the same container but scrollable if needed) */}
+        <div class={`overflow-hidden ${isYearGridOpen ? 'block' : 'hidden'}`}>
+          <div class="grid grid-cols-3 gap-2 mb-4 transition-all duration-300 ease-in-out">
             {generateYears.map((year) => (
               <button
                 key={year}
@@ -116,7 +116,10 @@ export default function Calendar({ setSelectedDate, closeCalendar, selectedDate 
               </button>
             ))}
           </div>
-        ) : (
+        </div>
+
+        {/* Calendar Grid (Only Show When Year Picker is Closed) */}
+        {!isYearGridOpen && (
           <>
             {/* Days of the Week */}
             <div class="grid grid-cols-7 gap-1 text-center text-gray-500 text-sm font-semibold mb-2">
