@@ -21,6 +21,7 @@ import * as $signup from "./routes/signup.tsx";
 import * as $AddTransactionDialog from "./islands/AddTransactionDialog.tsx";
 import * as $Calendar from "./islands/Calendar.tsx";
 import * as $ChartIsland from "./islands/ChartIsland.tsx";
+import * as $Clock from "./islands/Clock.tsx";
 import * as $LoginForm from "./islands/LoginForm.tsx";
 import * as $SignupForm from "./islands/SignupForm.tsx";
 import * as $Toast from "./islands/Toast.tsx";
@@ -51,6 +52,7 @@ const manifest = {
     "./islands/AddTransactionDialog.tsx": $AddTransactionDialog,
     "./islands/Calendar.tsx": $Calendar,
     "./islands/ChartIsland.tsx": $ChartIsland,
+    "./islands/Clock.tsx": $Clock,
     "./islands/LoginForm.tsx": $LoginForm,
     "./islands/SignupForm.tsx": $SignupForm,
     "./islands/Toast.tsx": $Toast,
