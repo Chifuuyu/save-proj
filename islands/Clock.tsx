@@ -62,9 +62,9 @@ const CSSClock = ({ onSelect }: CSSClockProps) => {
   const hourAngle = ((hour % 12) + minute / 60) * 30;
   const minuteAngle = minute * 6;
 
-  const clockSize = 300; // Size of the clock
+  const clockSize = 260; // Size of the clock
   const radius = clockSize / 2;
-  const _indicatorRadius = radius - 10; // For roulette-style indicator
+  const _indicatorRadius = radius - 12; // For roulette-style indicator
   const indicatorAngle = mode === 'hour' ? hourAngle : minuteAngle;
   const _rad = (indicatorAngle - 90) * (Math.PI / 180);
 
@@ -75,141 +75,153 @@ const CSSClock = ({ onSelect }: CSSClockProps) => {
       .padStart(2, '0')} ${amPm}`;
     onSelect(formattedTime);
   };
+  
 
   return (
     <div
-      style={{
-        fontFamily: 'system-ui, -apple-system, sans-serif',
-        textAlign: 'center',
-        maxWidth: '350px',
-        margin: '0 auto',
-        background: '#ffffff',
-        padding: '2rem',
-        borderRadius: '20px',
-        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-      }}
-    >
-      {/* Time Display */}
-      <div style={{ 
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '1rem',
-        marginBottom: '2rem'
-      }}>
-        {/* Hour Box */}
-        <div
-          onClick={() => setMode('hour')}
-          style={{
-            cursor: 'pointer',
-            padding: '1rem',
-            background: mode === 'hour' ? '#2d3748' : '#f7fafc',
-            borderRadius: '12px',
-            border: `2px solid ${mode === 'hour' ? '#2d3748' : '#e2e8f0'}`,
-            transition: 'all 0.2s',
-          }}
-        >
-          <div style={{
-            fontSize: '3rem',
-            fontWeight: '600',
-            color: mode === 'hour' ? '#ffffff' : '#2d3748',
-          }}>
-            {hour.toString().padStart(2, '0')}
-          </div>
-        </div>
-
-        {/* Colon Separator */}
-        <div style={{ 
-          fontSize: '2rem',
-          color: '#2d3748',
-          marginBottom: '1.5rem'
+    style={{
+      fontFamily: 'system-ui, -apple-system, sans-serif',
+      textAlign: 'center',
+      maxWidth: '350px',
+      height: '460px',
+      margin: '0 auto',
+      background: '#ffffff',
+      padding: '1.5rem',
+      borderRadius: '20px',
+      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+    }}
+  >
+    {/* Time Display */}
+    <div style={{ 
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: '0.8rem',
+      marginBottom: '1rem'
+    }}>
+      {/* Hour Box */}
+      <div
+        onClick={() => setMode('hour')}
+        style={{
+          cursor: 'pointer',
+          padding: '0.8rem',
+          background: mode === 'hour' ? '#2d3748' : '#f7fafc',
+          borderRadius: '10px',
+          border: `2px solid ${mode === 'hour' ? '#2d3748' : '#e2e8f0'}`,
+          transition: 'all 0.2s',
+          minWidth: '70px'
+        }}
+      >
+        <div style={{
+          fontSize: '2.5rem',
+          fontWeight: '600',
+          color: mode === 'hour' ? '#ffffff' : '#2d3748',
+          lineHeight: 1
         }}>
-          :
-        </div>
-
-        {/* Minute Box */}
-        <div
-          onClick={() => setMode('minute')}
-          style={{
-            cursor: 'pointer',
-            padding: '1rem',
-            background: mode === 'minute' ? '#2d3748' : '#f7fafc',
-            borderRadius: '12px',
-            border: `2px solid ${mode === 'minute' ? '#2d3748' : '#e2e8f0'}`,
-            transition: 'all 0.2s',
-          }}
-        >
-          <div style={{
-            fontSize: '3rem',
-            fontWeight: '600',
-            color: mode === 'minute' ? '#ffffff' : '#2d3748',
-          }}>
-            {minute.toString().padStart(2, '0')}
-          </div>
-        </div>
-
-        {/* Stacked AM/PM */}
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            marginLeft: '1rem'
-          }}
-        >
-          <div
-            onClick={() => setAmPm('AM')}
-            style={{
-              cursor: 'pointer',
-              padding: '0.5rem 1rem',
-              background: amPm === 'AM' ? '#ffa500' : '#f7fafc',
-              color: amPm === 'AM' ? 'white' : '#cbd5e0',
-              fontWeight: '600',
-              borderRadius: '6px 6px 0 0',
-              border: `2px solid ${amPm === 'AM' ? '#ffa500' : '#e2e8f0'}`,
-              borderBottom: 'none',
-              transition: 'all 0.2s',
-            }}
-          >
-            AM
-          </div>
-          <div
-            onClick={() => setAmPm('PM')}
-            style={{
-              cursor: 'pointer',
-              padding: '0.5rem 1rem',
-              background: amPm === 'PM' ? '#ffa500' : '#f7fafc',
-              color: amPm === 'PM' ? 'white' : '#cbd5e0',
-              fontWeight: '600',
-              borderRadius: '0 0 6px 6px',
-              border: `2px solid ${amPm === 'PM' ? '#ffa500' : '#e2e8f0'}`,
-              transition: 'all 0.2s',
-            }}
-          >
-            PM
-          </div>
+          {hour.toString().padStart(2, '0')}
         </div>
       </div>
 
-      {/* Clock Face */}
+      {/* Colon Separator */}
+      <div style={{ 
+        fontSize: '1.8rem',
+        color: '#2d3748',
+        marginBottom: '1.2rem'
+      }}>
+        :
+      </div>
+
+      {/* Minute Box */}
       <div
-        ref={clockRef}
-        onPointerDown={handlePointerDown}
-        onPointerMove={handlePointerMove}
-        onPointerUp={handlePointerUp}
+        onClick={() => setMode('minute')}
         style={{
-          position: 'relative',
-          width: clockSize + 'px',
-          height: clockSize + 'px',
-          margin: '0 auto',
-          borderRadius: '50%',
-          background: '#ffffff',
-          border: '2px solid #e2e8f0',
-          touchAction: 'none',
-          userSelect: 'none',
           cursor: 'pointer',
+          padding: '0.8rem',
+          background: mode === 'minute' ? '#2d3748' : '#f7fafc',
+          borderRadius: '10px',
+          border: `2px solid ${mode === 'minute' ? '#2d3748' : '#e2e8f0'}`,
+          transition: 'all 0.2s',
+          minWidth: '70px'
         }}
       >
+        <div style={{
+          fontSize: '2.5rem',
+          fontWeight: '600',
+          color: mode === 'minute' ? '#ffffff' : '#2d3748',
+          lineHeight: 1
+        }}>
+          {minute.toString().padStart(2, '0')}
+        </div>
+      </div>
+
+      {/* Stacked AM/PM */}
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          marginLeft: '0.8rem'
+        }}
+      >
+        <div
+          onClick={() => setAmPm('AM')}
+          style={{
+            cursor: 'pointer',
+            padding: '0.4rem 0.8rem',
+            background: amPm === 'AM' ? '#ffa500' : '#f7fafc',
+            color: amPm === 'AM' ? 'white' : '#cbd5e0',
+            fontWeight: '600',
+            borderRadius: '6px 6px 0 0',
+            border: `2px solid ${amPm === 'AM' ? '#ffa500' : '#e2e8f0'}`,
+            borderBottom: 'none',
+            transition: 'all 0.2s',
+            fontSize: '0.9rem'
+          }}
+        >
+          AM
+        </div>
+        <div
+          onClick={() => setAmPm('PM')}
+          style={{
+            cursor: 'pointer',
+            padding: '0.4rem 0.8rem',
+            background: amPm === 'PM' ? '#ffa500' : '#f7fafc',
+            color: amPm === 'PM' ? 'white' : '#cbd5e0',
+            fontWeight: '600',
+            borderRadius: '0 0 6px 6px',
+            border: `2px solid ${amPm === 'PM' ? '#ffa500' : '#e2e8f0'}`,
+            transition: 'all 0.2s',
+            fontSize: '0.9rem'
+          }}
+        >
+          PM
+        </div>
+      </div>
+    </div>
+
+    {/* Clock Face */}
+    <div
+      ref={clockRef}
+      onPointerDown={handlePointerDown}
+      onPointerMove={handlePointerMove}
+      onPointerUp={handlePointerUp}
+      style={{
+        position: 'relative',
+        width: clockSize + 'px',
+        height: clockSize + 'px',
+        margin: '0 auto',
+        borderRadius: '50%',
+        background: '#ffffff',
+        border: '2px solid #e2e8f0',
+        touchAction: 'none',
+        userSelect: 'none',
+        cursor: 'pointer',
+        flexShrink: 0
+      }}
+    >
         {/* Hour Markers */}
         {Array.from({ length: 12 }).map((_, i) => {
           const angle = i * 30;
@@ -337,14 +349,12 @@ const CSSClock = ({ onSelect }: CSSClockProps) => {
       </div>
 
       {/* Set Time Button */}
-      <div style={{ marginTop: '1.5rem' }}>
         <button
           onClick={handleSetTime}
           className="set-time-button"
         >
           Set Time
         </button>
-      </div>
     </div>
   );
 };
